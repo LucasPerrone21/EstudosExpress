@@ -1,0 +1,138 @@
+body {
+    font-family: "Silkscreen", cursive;
+    background-color: #c4c4c4;
+    font-size: 1.5rem;
+    background-image: url("/img/image.jpg");
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 2rem 0 2rem 0;
+    color: #fefefe;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    background-color: #4d424b;
+    width: 25rem;
+    height: 40rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 5px solid #000;
+    border-radius: 12px;
+}
+
+.calculadoraConjuntoBotao {
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.calculadoraBotao {
+    padding: 0.3rem;
+    width: 5rem;
+    height: 3rem;
+    background-color: #9b9b9b;
+    border-radius: 6px;
+    color: #fefefe;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.calculadoraBotao:active {
+    scale: 0.8;
+}
+
+.numeros {
+    background-color: #000;
+}
+
+.igual {
+    background-color: #356146;
+}
+
+.telas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+
+.contaHistorico {
+    background-color: #fefefe;
+    width: 100%;
+    height: 10rem;
+    overflow-y: scroll;
+    resize: none;
+    margin: none;
+    height: 45%;
+    border: none;
+    background-color: #356146;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    cursor: default;
+
+    font-family: "Silkscreen", cursive;
+}
+
+.contaHistorico:focus {
+    outline: none;
+}
+
+.contaHistorico::-webkit-scrollbar {
+    width: 12px;
+}
+
+.contaHistorico::-webkit-scrollbar-track {
+    background: #35614600;
+}
+
+.contaHistorico::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+.contaAtual {
+    background-color: #fefefe;
+    width: 100%;
+    height: 15%;
+    resize: none;
+    margin: none;
+    border: none;
+    background-color: #356146;
+    color: #000;
+    font-size: 1.5rem;
+    border-radius: 0 0 10px 10px;
+
+    font-family: "Silkscreen", cursive;
+}
+
+.contaAtual:focus {
+    outline: none;
+}
+
+.direitos {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    color: #fefefe;
+}
+
+.link {
+    color: #bb1470;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #bb1470;
+}

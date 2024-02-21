@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Lucas Perrone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;700&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+
+<body class="geral">
+    <h1 class="titulo">Calculadora</h1>
+    <div class="calculadora">
+        <div class="solar"></div>
+        <div class="telas">
+            <textarea class="contaHistorico" name="" id="" cols="30" rows="10"></textarea>
+            <input class="contaAtual" type="text">
+        </div>
+        <table class="calculadoraConjuntoBotao">
+            <tr>
+                <td class="calculadoraBotao operacaoUnaria">x²</td>
+                <td class="calculadoraBotao operacaoUnaria">√x</td>
+                <td class="calculadoraBotao operacaoUnaria">x!</td>
+                <td colspan="2" class="calculadoraBotao clear">C</td>
+            </tr>
+            <tr>
+                <td class="calculadoraBotao numeros">7</td>
+                <td class="calculadoraBotao numeros">8</td>
+                <td class="calculadoraBotao numeros">9</td>
+                <td colspan="2" class="calculadoraBotao delete">DEL</td>
+            </tr>
+            <tr>
+                <td class="calculadoraBotao numeros">4</td>
+                <td class="calculadoraBotao numeros">5</td>
+                <td class="calculadoraBotao numeros">6</td>
+                <td class="calculadoraBotao operacaoBinaria">+</td>
+                <td class="calculadoraBotao operacaoBinaria">-</td>
+            </tr>
+            <tr>
+                <td class="calculadoraBotao numeros">1</td>
+                <td class="calculadoraBotao numeros">2</td>
+                <td class="calculadoraBotao numeros">3</td>
+                <td class="calculadoraBotao operacaoBinaria">*</td>
+                <td class="calculadoraBotao operacaoBinaria">/</td>
+            </tr>
+            <tr>
+                <td class="calculadoraBotao numeros">.</td>
+                <td class="calculadoraBotao numeros">0</td>
+                <td class="calculadoraBotao numeros"></td>
+                <td colspan="2" class="calculadoraBotao igual">=</td>
+            </tr>
+
+        </table>
+    </div>
+    <footer>
+        <p class="direitos">© 2023 <a class="link" href="https://lucasperrone21.github.io/Portfolio/">Lucas Perrone</a>. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>

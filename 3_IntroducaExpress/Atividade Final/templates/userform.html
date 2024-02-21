@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Func</title>
+    <link rel="stylesheet" href="/css/styleuser.css">
+</head>
+
+<body>
+    <h1>Adicionar funcionario</h1>
+    <a href="/users/add">usuario</a>
+    <a href="/produtos/add">produtos</a>
+
+    <form action="/users/save" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Nome do funcionario" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email do funcionario" required>
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" placeholder="Senha do funcionario" required>
+
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+
+</html>

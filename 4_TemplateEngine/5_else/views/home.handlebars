@@ -1,0 +1,15 @@
+<h1>Olá handlebars</h1>
+{{#if approved}}
+    <p>Você foi aprovado!</p>
+{{else}}
+    <p>Você foi reprovado, solicite Aprovação</p>
+{{/if}}
+<p>Dados do Usuario:</p>
+{{#if auth}}
+    <p>
+        Você está logado como
+        {{user.email}},
+        <a href="/dashboard">clique aqui</a>
+        para acessar a dashboard.
+    </p>
+{{/if}}
